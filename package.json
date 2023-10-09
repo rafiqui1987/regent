@@ -52,7 +52,7 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.41",
     "ng2-pdf-viewer": "^10.0.0",
-    "ngx-permissions": "^15.0.1",
+    "ngx-permissions": "^16.0.1",
     "ngx-progressbar": "^11.1.0",
     "ngx-toastr": "^17.0.2",
     "photoviewer": "^3.8.1",
