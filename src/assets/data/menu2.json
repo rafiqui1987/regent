@@ -47,6 +47,11 @@
           "route": "lane-one",
           "name": "lane-one",
           "type": "link"
+        },
+        {
+          "route": "checklist",
+          "name": "checklist",
+          "type": "link"
         }
       ],
 
