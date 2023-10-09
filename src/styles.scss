@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@use 'app/theme/style';
+@use 'styles/themes';
+@use 'styles/custom';
+@use 'styles/grid';
+@use 'styles/helpers';
+@use 'styles/plugins';
+
+
+body {
+  .mdc-button.mat-success,
+  .mat-mdc-stroked-button.mat-success {
+    color: #155724;
+  }
+
+  .mat-mdc-unelevated-button.mat-success:hover,
+  .mat-mdc-raised-button.mat-success:hover {
+    color: #f0fff3;
+    background-color: #1b742f;
+  }
+
+  .mat-mdc-unelevated-button:not(:disabled, :hover).mat-success,
+  .mat-mdc-raised-button.mat-success,
+  .mat-mdc-fab.mat-success,
+  .mat-mdc-mini-fab.mat-success {
+    color: #f0fff3;
+    background-color: #155724;
+  }
+
+  .mat-mdc-icon-button.mat-success {
+    color: #155724;
+  }
+}

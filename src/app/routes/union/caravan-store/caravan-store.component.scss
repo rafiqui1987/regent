@@ -1,0 +1,45 @@
+.example-form {
+  width: 100%;
+  min-width: 150px;
+  max-width: 500px;
+}
+
+.example-full-width {
+  width: 50%;
+}
+
+
+.example-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+
+.example-container2 {
+  height: 600px;
+  overflow: auto;
+}
+
+
+.mat-raised-button.custom-color {
+  color: white; /* Cambia el color del texto si es necesario para que sea legible */
+  background-color: #C51162;
+}
+
+table {
+  width: 100%;
+  border-spacing: 4px 0;
+  border-collapse: initial;
+
+
+}
+
+td {
+  border-right: 3px solid ;
+  border-right-color: #9ca7ab;
+
+/* ;  Remove this line to disable grey background color */
+  border-left: 1px solid ;
+  border-left-color: #9ca7ab;
+}
+
+
+

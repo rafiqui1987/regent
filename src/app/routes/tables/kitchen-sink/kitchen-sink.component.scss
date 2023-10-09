@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  border-spacing: 4px 0;
+  border-collapse: initial;
+
+}
+
+td {
+  border-right: 3px solid ;
+  border-right-color: #9ca7ab;
+
+/* ;  Remove this line to disable grey background color */
+  border-left: 1px solid ;
+  border-left-color: #9ca7ab;
+}
+
+
+tr.mat-footer-row {
+  height: 10px;
+}

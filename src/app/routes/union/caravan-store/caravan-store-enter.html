@@ -1,0 +1,14 @@
+
+
+<mat-card-content>
+  <p>
+    Good! the caravan whit chassis number <button mat-button (click)="openWelcomeDialog()"><b> {{ data.chassis }}</b> </button> was stored in the
+    <b>{{data.bay}}</b> of the <b>{{data.lane}}</b>
+  </p>
+  <p *ngIf="data.comment">Comment: {{data.comment}}</p>
+</mat-card-content>
+<mat-dialog-actions align="end">
+  <button mat-raised-button mat-dialog-close>Close</button>
+  <button mat-raised-button color="primary" mat-dialog-close cdkFocusInitial>Submit</button>
+
+</mat-dialog-actions>

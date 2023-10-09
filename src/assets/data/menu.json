@@ -1,0 +1,87 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-500",
+        "value": "5"
+      }
+    },
+    {
+      "route": "union",
+      "name": "union",
+      "type": "sub",
+      "icon": "open_in_browser",
+      "children": [
+        {
+          "route": "caravan-store",
+          "name": "caravan-store",
+          "type": "link"
+        },
+        {
+          "route": "schedule",
+          "name": "schedule",
+          "type": "link"
+        },
+        {
+          "route": "hoist",
+          "name": "hoist",
+          "type": "link"
+        }
+      ],
+
+      "permissions": {
+        "only": "ADMIN"
+      }
+    },
+    {
+      "route": "stanley",
+      "name": "stanley",
+      "type": "sub",
+      "icon": "table_chart",
+      "children": [
+        {
+          "route": "lane-one",
+          "name": "lane-one",
+          "type": "link"
+        }
+      ],
+
+      "permissions": {
+        "only": "ADMIN"
+      }
+    },
+        {
+      "route": "permissions",
+      "name": "permissions",
+      "type": "sub",
+      "icon": "lock",
+      "children": [
+        {
+          "route": "role-switching",
+          "name": "role-switching",
+          "type": "link"
+        },
+        {
+          "route": "route-guard",
+          "name": "route-guard",
+          "type": "link",
+          "permissions": {
+            "except": "GUEST"
+          }
+        },
+        {
+          "route": "test",
+          "name": "test",
+          "type": "link",
+          "permissions": {
+            "only": "ADMIN"
+          }
+        }
+      ]
+    }
+  ]
+}
